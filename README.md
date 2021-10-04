@@ -14,4 +14,9 @@ Output: ./gdd.nc
 2. Save the file as ./gdd.nc
 
 ## 2. Convert the data to .csv
-TODO
+Input: ./gdd.nc
+Output: ./gdd.csv
+
+1. Install [python3](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/)
+2. Run `pip install -r requirements.txt`. See https://pip.pypa.io/en/stable/user_guide/#requirements-files
+3. Run `python to-csv.py`
